@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Maria Baumgartner — mathematics, machine learning, and thoughtful software. Rutgers University.">
+    <title>Projects | Maria Baumgartner</title>
+    <link rel="stylesheet" href="../styles.css?v=10">
+  </head>
+  <body id="top">
+    <header>
+      <a class="brand" href="../index.html">Maria Baumgartner<span class="brand-dot"></span></a>
+      <nav aria-label="Main navigation">
+        <a href="./projects.html" aria-current="page">Projects</a>
+        <a href="./research.html">Research</a>
+        <a href="./about.html">About</a>
+        <a href="./bookshelf.html">Bookshelf</a>
+        <a href="./postcards.html">Travel Scraps</a>
+        <a href="./contact.html">Contact</a>
+        <button type="button" id="theme-toggle" hidden>Dark mode</button>
+      </nav>
+    </header>
+
+    <div class="wrap">
+      <main>
+        <section class="section" id="work">
+          <div class="section-head">
+            <h2>Selected Work.</h2>
+          </div>
+          <article class="project">
+            <div>
+              <div class="tags">
+                Python · Data Science & Visualization · PyTorch · Time series
+              </div>
+              <h3>NYC Citi Bike Demand Prediction</h3>
+              <p>
+                A team project predicting bike inflow across 1,907 NYC Citi Bike stations. I trained a neural network on 5.5 million hourly records, designed a calendar-based split with a cold-start procedure to prevent temporal leakage across the training-test boundary, and built an interactive map using predictions saved as JSON.
+                </p>
+              <div class="project-links">
+                <a href="https://mariabaumg.github.io/cs210-citibike/src/" target="_blank" rel="noopener">Explore the demo ↗</a>
+                <a href="https://github.com/mariabaumg/cs210-citibike" target="_blank" rel="noopener">View code ↗</a>
+              </div>
+            </div>
+          </article>
+          <article class="project">
+            <div>
+              <div class="tags">
+                Python · Flask · JavaScript · APIs · Full Stack Dev
+              </div>
+              <h3>Letterboxd Monthly Movie Recommender</h3>
+              <p>
+                A personal project that uses my monthly Letterboxd viewing history to recommend unseen films based on genre similarity. Built with Python and TMDb metadata, with both a Flask app and a static version.</p>
+              <div class="project-links">
+                <a href="https://mariabaumg.github.io/letterboxd-wrapped/" target="_blank" rel="noopener">Explore the demo ↗</a>
+                <a href="https://github.com/mariabaumg/letterboxd-wrapped" target="_blank" rel="noopener">View code ↗</a>
+              </div>
+            </div>
+          </article>
+          <article class="project">
+            <div>
+              <div class="tags">HTML · CSS · JavaScript · Front End</div>
+              <h3>Personal Website &amp; Portfolio</h3>
+              <p>
+                I built this site to share my research, projects, and a few personal interests. Some features it includes are an interactive bookshelf, travel photos that flip to reveal captions, and light and dark themes.
+              </p>
+              <div class="project-links">
+                <a href="../index.html">Visit the homepage ↗</a>
+                <a href="https://github.com/mariabaumg" target="_blank" rel="noopener">View code ↗</a>
+              </div>
+            </div>
+          </article>
+        </section>
+      </main>
+      <footer>
+        <span>Thanks for visiting!</span><span>maria.baumg44 [at] gmail.com</span> <span>+16097126264</span><span>© <span id="year">2026</span> </span>
+      </footer>
+    </div>
+    <script src="../script.js?v=14" defer></script>
+  </body>
+</html>

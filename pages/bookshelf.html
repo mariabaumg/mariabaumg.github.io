@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Maria Baumgartner — mathematics, machine learning, and thoughtful software. Rutgers University.">
+    <title>Bookshelf | Maria Baumgartner</title>
+    <link rel="stylesheet" href="../styles.css?v=10">
+  </head>
+  <body id="top">
+    <header>
+      <a class="brand" href="../index.html">Maria Baumgartner<span class="brand-dot"></span></a>
+      <nav aria-label="Main navigation">
+        <a href="./projects.html">Projects</a>
+        <a href="./research.html">Research</a>
+        <a href="./about.html">About</a>
+        <a href="./bookshelf.html" aria-current="page">Bookshelf</a>
+        <a href="./postcards.html">Travel Scraps</a>
+        <a href="./contact.html">Contact</a>
+        <button type="button" id="theme-toggle" hidden>Dark mode</button>
+      </nav>
+    </header>
+
+    <div class="wrap">
+      <main>
+        <section class="section bookshelf" id="reading" aria-labelledby="reading-title">
+          <div class="section-head">
+            <h2 id="reading-title">Bookshelf.</h2>
+          </div>
+          <p class="small">A selection of books I've recently read. (spoilers blurred)</p>
+          <ol class="shelves" aria-label="Recent reads">
+            <li>
+              <button type="button" class="spine tone-0 height-0" data-author="Charlotte Brontë" 
+              data-note="A book I'm currently reading in the spirit of a gothic fall/winter."
+              aria-label="Jane Eyre by: Charlotte Brontë"
+               aria-pressed="false"><span>Jane Eyre</span></button>
+            </li>
+            <li>
+              <button type="button" class="spine tone-2 height-2" data-author="Carter Lindberg" 
+              data-note="A book I'm currently reading for a history class."
+              aria-label="The European Reformations by Carter Lindberg" aria-pressed="false"><span>The European Reformations</span></button>
+            </li>
+            <li>
+              <button type="button" class="spine tone-0 height-2" data-author="Thomas Aquinas" 
+              data-note="A work I'm currently reading for a philosophy class."
+              aria-label="Summa Theologiae by Thomas Aquinas" aria-pressed="false"><span>Summa Theologiae</span></button>
+            </li>
+            <li>
+              <button type="button" class="spine tone-4 height-2" data-author="Zhuangzi" 
+
+              aria-label="The Book of Chuang Tzu by Zhuangzi" aria-pressed="false"><span>The Book of Chuang Tzu</span></button>
+            </li>
+            <li>
+              <button type="button" class="spine tone-0 height-3" data-author="Robert Louis Stevenson"
+              data-note="Read this on the train and "data-spoiler="wish I didn't know what the twist was before reading." 
+              aria-label="Strange Case of Dr Jekyll and Mr Hyde by Robert Louis Stevenson" aria-pressed="false"><span>Strange Case of Dr Jekyll and Mr Hyde</span></button>
+            </li>
+            <li>
+              <button type="button" class="spine tone-1 height-0" data-author="Anthony Burgess"
+              aria-label="A Clockwork Orange by Anthony Burgess" aria-pressed="false"><span>A Clockwork Orange</span></button>
+            </li>
+            <li>
+              <button type="button" class="spine tone-2 height-1" data-author="Mikhail Bulgakov"
+              data-note="One of my recent favorites. Bulgakov's Moscow was so vivid in my mind's eye."
+              aria-label="The Master and Margarita by Mikhail Bulgakov" aria-pressed="false"><span>The Master and Margarita</span></button>
+            </li>
+            <li>
+              <button type="button" class="spine tone-2 height-2" data-author="Albert Camus" aria-label="The Myth of Sisyphus by Albert Camus" aria-pressed="false"><span>The Myth of Sisyphus</span></button>
+            </li>
+            <li>
+              <button type="button" class="spine tone-4 height-0" data-author="Emmanuel Carrère" aria-label="The Mustache by Emmanuel Carrère" aria-pressed="false"><span>The Mustache</span></button>
+            </li>
+            <li>
+              <button type="button" class="spine tone-2 height-3" data-author="Franz Kafka"
+              data-note="I'm so glad I picked up a copy while visiting the house where Kafka lived and wrote these stories in Golden Lane in Prague."
+              aria-label="A Country Doctor: Short Stories by Franz Kafka" aria-pressed="false"><span>A Country Doctor: Short Stories</span></button>
+            </li>
+            <li>
+              <button type="button" class="spine tone-4 height-1" data-author="Milan Kundera" aria-label="The Unbearable Lightness of Being by Milan Kundera" aria-pressed="false"><span>The Unbearable Lightness of Being</span></button>
+            </li>
+            <li>
+              <button type="button" class="spine tone-4 height-1" data-author="Milan Kundera" aria-label="The Joke by Milan Kundera" aria-pressed="false"><span>The Joke</span></button>
+            </li>
+            <li>
+              <button type="button" class="spine tone-0 height-2" data-author="Albert Camus"
+              data-note="Another one of my recent favorites. The ending has really stuck with me."
+              aria-label="The Stranger by Albert Camus" aria-pressed="false"><span>The Stranger</span></button>
+            </li>
+            <li>
+              <button type="button" class="spine tone-1 height-3" data-author="Emily Brontë" aria-label="Wuthering Heights by Emily Brontë" aria-pressed="false"><span>Wuthering Heights</span></button>
+            </li>
+          </ol>
+          <p class="book-detail" aria-live="polite">
+            <cite id="book-title"></cite>
+            <span id="book-author"></span>
+          </p>
+          <p id="book-note" hidden>
+            <span id="book-note-text"></span>
+            <button type="button" id="book-spoiler" aria-label="Reveal spoiler" hidden>
+                <span id="book-spoiler-text" aria-hidden="true"></span>
+            </button>
+          </p>
+        </section>
+      </main>
+      <footer>
+        <span>Thanks for visiting!</span><span>maria.baumg44 [at] gmail.com</span> <span>+16097126264</span><span>© <span id="year">2026</span></span>
+      </footer>
+    </div>
+    <script src="../script.js?v=14" defer></script>
+  </body>
+</html>
